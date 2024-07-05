@@ -16,7 +16,7 @@
   --text-lg: 2rem/125% var(--font-family);
   --text: 1rem/150% var(--font-family);
   --text-md: 1.1rem/170% var(--font-family);
-  --text-sma: 0.75rem/170% var(--font-family);
+  --text-sm: 0.75rem/170% var(--font-family);
 }
 
 body {
@@ -28,4 +28,18 @@ body {
   font-size: 14px;
   line-height: 170%;
 }
-/* Amante de viagens, cultura e gastronomia. 🌍✈️ Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a partir da movimentada cidade de São Paulo. 🏙️📸 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+.container {
+  padding-inline: 2rem;
+  max-width: 1280px;
+}
+.bg-surface-color {
+  background-color: var(--surface-color);
+}
