@@ -13,7 +13,7 @@ header .container {
   gap: 2rem;
 }
 .profile > div {
-  max-width: 24rem;
+  max-width: 26rem;
 }
 .profile h1 {
   font: var(--text-lg);
